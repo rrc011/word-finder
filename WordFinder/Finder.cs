@@ -15,7 +15,7 @@
             }
 
             int rowCount = input.Count();
-            int columnCount = input.First().Length;
+            int columnCount = input.First().Split(",").Count();
 
             if (!(rowCount == columnCount))
             {

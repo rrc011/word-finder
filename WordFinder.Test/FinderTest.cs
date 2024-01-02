@@ -31,7 +31,6 @@ namespace WordFinder.Test
                 "K,P,L,E,E,K,Y,V,K,O,N,Y,N,U,R",
                 "X,P,I,N,R,A,P,P,L,E,U,T,S,A,T",
                 "O,E,N,C,R,L,U,C,H,E,R,R,Y,U,E",
-                "U,W,C,K,Y,W,I,I,P,I,E,Z,X,M,U",
                 "N,D,B,S,N,Z,G,Y,Y,N,S,K,I,W,I"
             };
 
@@ -107,8 +106,11 @@ namespace WordFinder.Test
             // Arrange
             IEnumerable<string> matrixWithRepeatedWords = new List<string>
             {
-                "HELLO,HELLO,WORLD",
-                "WORLD,HELLO,HELLO",
+                "H,E,L,L,O",
+                "H,E,L,L,O" ,
+                "W,O,R,L,D",
+                "W,O,R,L,D",
+                "H,E,L,L,O",
             };
 
             var finderWithRepeatedWords = new Finder(matrixWithRepeatedWords);

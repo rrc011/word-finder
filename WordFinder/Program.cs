@@ -22,9 +22,8 @@
                 "K,P,L,E,E,K,Y,V,K,O,N,Y,N,U,R",
                 "X,P,I,N,R,A,P,P,L,E,U,T,S,A,T",
                 "O,E,N,C,R,L,U,C,H,E,R,R,Y,U,E",
-                "U,W,C,K,Y,W,I,I,P,I,E,Z,X,M,U",
                 "N,D,B,S,N,Z,G,Y,Y,N,S,K,I,W,I"
-            };
+            }; //words= orange,kiwi,banana,melon, etc...
 
             var finder = new Finder(matrix);
 
