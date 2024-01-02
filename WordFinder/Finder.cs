@@ -7,6 +7,21 @@
         // Constructor that initializes the grid with input data
         public Finder(IEnumerable<string> input)
         {
+            const int MaxGridSize = 64;
+
+            if (input.Count() > MaxGridSize)
+            {
+                throw new ArgumentException($"Grid size exceeds maximum allowed size of {MaxGridSize}.");
+            }
+
+            int rowCount = input.Count();
+            int columnCount = input.First().Length;
+
+            if (!(rowCount == columnCount))
+            {
+                throw new ArgumentException("Grid must be square (have equal number of rows and columns).");
+            }
+
             _grid = input;
         }
 
