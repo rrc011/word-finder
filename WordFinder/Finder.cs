@@ -13,6 +13,8 @@
         // Method to find words from a wordstream in the grid
         public IEnumerable<string> Find(IEnumerable<string> wordstream)
         {
+            if (wordstream is null) return new List<string>();
+
             // Extract all words from the grid
             var wordsInMatrixHorizontal = ExtractHorizontalWordsFromMatrix(_grid);
             var wordsInMatrixVertical = ExtractVerticalWordsFromMatrix(_grid);

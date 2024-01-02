@@ -1,3 +1,6 @@
 /.vs
 /WordFinder/bin
 /WordFinder/obj
+/WordFinder.Test/[Tt]est[Rr]esult*/
+/WordFinder.Test/bin
+/WordFinder.Test/obj

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder", "WordFinder\WordFinder.csproj", "{20061224-D456-4BFA-B814-2C60E40BBD17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.Test", "WordFinder.Test\WordFinder.Test.csproj", "{AA4E9A83-5945-4B55-848B-8EC3BA9BECAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{20061224-D456-4BFA-B814-2C60E40BBD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20061224-D456-4BFA-B814-2C60E40BBD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20061224-D456-4BFA-B814-2C60E40BBD17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4E9A83-5945-4B55-848B-8EC3BA9BECAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4E9A83-5945-4B55-848B-8EC3BA9BECAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4E9A83-5945-4B55-848B-8EC3BA9BECAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4E9A83-5945-4B55-848B-8EC3BA9BECAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
